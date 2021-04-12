@@ -1,0 +1,23 @@
+name: Build Arcade
+
+on: [push]
+
+defaults:
+    run:
+        shell: bash
+
+jobs:
+    build_arcade:
+        name: Build Arcade
+        runs-on: ubuntu-latest
+        container: epitechcontent/epitest-docker:latest
+
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Create Build Directory
+              run: mkdir build
+
+            - name: Build Arcade
+              working-directory: build
+              run: cmake .. -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release && cmake --build .
