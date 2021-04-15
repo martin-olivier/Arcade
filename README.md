@@ -42,17 +42,17 @@ USAGE:
   ./arcade path_to_graphical_lib
   
 DESCRIPTION:
-  lib         path to the initial graphical library to load (./lib/<lib_name.so>)
+  lib         path to the initial graphical library to load (./lib/arcade_lib_name.so)
   
 COMMANDS:
-  n           next graphic lib
-  p           previous graphic lib
-  o           next game lib
-  i           previous game lib
+  N           next graphic lib
+  P           previous graphic lib
+  O           next game lib
+  I           previous game lib
   
-  m           menu
-  r           reset the game
-  echap       quit arcade
+  M           menu
+  R           reset the game
+  ESC         quit arcade
   
   RIGHT_ARROW move right
   LEFT_ARROW  move left
