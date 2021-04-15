@@ -1,5 +1,5 @@
 # Arcade
-Arcade is a gaming platform: a program that lets the user choose a game to play and keeps a register of player scores.
+Arcade is a gaming platform, a program that lets the user choose a game to play and keeps a register of player scores.
 
 ## Requirements
 
@@ -26,29 +26,29 @@ cmake --build .
 
 ## Librairies
 ### Graphic
-We include `3` graphics lib:   
+We include `3` graphic libs:   
 - SFML
 - SDL
 - NCURSES   
 
-### GAME
-We include `2` games lib:
+### Game
+We include `2` game libs:
 - Nibbler
 - Pacman  
 
 ## Usage
 ```bash
 USAGE:
-  ./arcade lib
+  ./arcade path_to_graphical_lib
   
 DESCRIPTION:
-  lib   the path where you can find graphics librairies (./lib/)
+  lib         path to the initial graphical library to load (./lib/<lib_name.so>)
   
-COMMAND IN GAME:
-  n           next graphics
-  p           previous graphics
-  o           next game
-  i           previous game
+COMMANDS:
+  n           next graphic lib
+  p           previous graphic lib
+  o           next game lib
+  i           previous game lib
   
   m           menu
   r           reset the game
