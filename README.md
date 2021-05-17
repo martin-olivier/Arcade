@@ -3,7 +3,7 @@ Arcade is a gaming platform, a program that lets the user choose a game to play 
 
 ## Subject
 
-[![doc](https://img.shields.io/badge/Subject-pdf-red.svg)](./subject.pdf)
+[![sub](https://img.shields.io/badge/Subject-pdf-red.svg)](./subject.pdf)
 
 ## Requirements
 
