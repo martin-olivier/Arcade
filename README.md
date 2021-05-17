@@ -1,6 +1,10 @@
 # Arcade
 Arcade is a gaming platform, a program that lets the user choose a game to play and keeps a register of player scores.
 
+## Subject
+
+[![doc](https://img.shields.io/badge/Subject-pdf-red.svg)](./subject.pdf)
+
 ## Requirements
 
 `Build`
