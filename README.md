@@ -75,5 +75,5 @@ Grade `A`
 ## Contributors
 
 - [Benjamin Reigner](https://github.com/Breigner01)
-- [Martin Olivier](https://github.com/tocola)
+- [Martin Olivier](https://github.com/martin-olivier)
 - [Coline Seguret](https://github.com/Cleopha)
